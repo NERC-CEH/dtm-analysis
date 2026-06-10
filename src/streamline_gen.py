@@ -87,7 +87,7 @@ def generate_streamlines(dem_path, output_dir, flow_accum_threshold=1000):
                 total_cells = data.size
                 stream_percentage = (stream_cells / total_cells) * 100
 
-            print(f"Stream network statistics:")
+            print("Stream network statistics:")
             print(f"Total cells: {total_cells}")
             print(f"Stream cells: {stream_cells}")
             print(f"Percentage of stream cells: {stream_percentage:.2f}%")
