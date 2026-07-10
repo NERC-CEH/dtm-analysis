@@ -1,4 +1,4 @@
-coming soon: Zenodo badge
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21297014.svg)](https://doi.org/10.5281/zenodo.21297014)
 
 Initially authored by Rafa Barbedo (ex-UKCEH): this repo is a fork of https://github.com/gisflw/dtm-analysis.git. FDRI now maintains this repo.
 
