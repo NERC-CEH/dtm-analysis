@@ -1,5 +1,6 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21297014.svg)](https://doi.org/10.5281/zenodo.21297014)
 
+
 Initially authored by Rafa Barbedo (ex-UKCEH): this repo is a fork of https://github.com/gisflw/dtm-analysis.git. FDRI now maintains this repo.
 
 # DTM & DSM Analysis  
@@ -16,6 +17,10 @@ The notebooks demonstrate how to flexibly subset them. **You do not need to down
 - **data/** → Raw & processed raster data (i.e. where output goes when running the notebook.)
 - **notebooks/** → Jupyter notebooks for terrain analysis. **You need to run notebook 01 to get data**.  
 - **src/** → Python & shell scripts for processing  
+
+## 🙋 Self-service to get additional data to run notebooks
+- (notebook 01) You will need a shape file of a region within England and Wales. For example, you can download the boundary of a NRFA catchment [here](https://nrfa.ceh.ac.uk/data/search). Click on a station >> Catchment info tab >> Download catchment boundary.
+- (notebook 03) You will need a shape file of water courses to verify your results. You could use the [OS Open Rivers Water courses dataset](https://www.ordnancesurvey.co.uk/products/os-open-rivers).
 
 ## 🚀 Getting Started  
 To set up, install dependencies and run the notebooks.
