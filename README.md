@@ -18,6 +18,14 @@ The notebooks demonstrate how to flexibly subset them. **You do not need to down
 - **notebooks/** → Jupyter notebooks for terrain analysis. **You need to run notebook 01 to get data**.  
 - **src/** → Python & shell scripts for processing  
 
+## 📂 List of Notebooks
+| Notebook | Description |
+|----------|-------------|
+| [Notebook 01: Catchment Digital Terrain Models](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/01_extract_dtm_dsm.ipynb) | High-resolution terrain and elevation models from FDRI LiDAR surveys. |
+| [Notebook 02: Catchment Terrain Analysis](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/02_terrain_analysis.ipynb) | Calculate and visualise slope, aspect, and other terrain characteristics. |
+| [Notebook 03: Floodplain Micro-topography](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/03_hydrological_analysis.ipynb) | Explore fine-scale floodplain features, including channels and depressions. |
+| [Notebook 04: Riparian Canopy Height](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/04_canopy_analysis.ipynb) | Analyse the height and structure of riverside trees and vegetation. |
+
 ## 🙋 Self-service to get additional data to run notebooks
 - (notebook 01) You will need a shape file of a region within England and Wales. For example, you can download the boundary of a NRFA catchment [here](https://nrfa.ceh.ac.uk/data/search). Click on a station >> Catchment info tab >> Download catchment boundary.
 - (notebook 03) You will need a shape file of water courses to verify your results. You could use the [OS Open Rivers Water courses dataset](https://www.ordnancesurvey.co.uk/products/os-open-rivers).
