@@ -18,7 +18,7 @@ The notebooks demonstrate how to flexibly subset them. **You do not need to down
 - **notebooks/** → Jupyter notebooks for terrain analysis. **You need to run notebook 01 to get data**.  
 - **src/** → Python & shell scripts for processing  
 
-## 📂 List of Notebooks
+## 🗂️ List of Notebooks
 | Notebook | Description |
 |----------|-------------|
 | [Notebook 01: Catchment Digital Terrain Models](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/01_extract_dtm_dsm.ipynb) | High-resolution terrain and elevation models from FDRI LiDAR surveys. |
@@ -32,6 +32,11 @@ The notebooks demonstrate how to flexibly subset them. **You do not need to down
 
 ## 🚀 Getting Started  
 To set up, install dependencies and run the notebooks.
+```
+conda create -n dtm-analysis python=3.12
+conda activate dtm-analysis
+pip install -r requirements.txt
+```
 
 To find more resources, go to https://fdri.org.uk
 
