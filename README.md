@@ -7,9 +7,11 @@ Initially authored by Rafa Barbedo (ex-UKCEH): this repo is a fork of https://gi
 This repository contains Jupyter notebooks and scripts for processing  
 high-resolution Digital Terrain Models (DTM) and Digital Surface Models (DSM).
 
-They demonstrate the use of merged 1m LiDAR data for England and Wales that is available at:
-- The Environmental Information Data Centre (EIDC) (DOI): [COMING SOON] **Please cite here when using the dataset.**
-- JASMIN public store
+They demonstrate the use of merged 1m LiDAR data for England and Wales that is available at the Environmental Information Data Centre (EIDC) (DOI).
+>**Please cite here when using the dataset or notebooks in this repo.**
+>
+> Barbedo, R.; Chambers, L.; Tso, C.M.; Cooper, H.; Smith, R.; Barr, A.; Samreen, F.; Brown, M.; Rudd, A.; Fry, M. (2026). **Merged LiDAR based Digital Terrain Model (DTM) and Digital Surface Model (DSM) for England and Wales**. NERC EDS Environmental Information Data Centre. https://doi.org/10.5285/34443359-64c0-4909-9f27-bb5d47f1153f
+
 Note these are large files: >200GB each. For users only needing a small region, it's more efficient to programmatically subset the files using a shape file.
 The notebooks demonstrate how to flexibly subset them. **You do not need to download the data from EIDC before running the notebooks.**
 
