@@ -21,12 +21,31 @@ The notebooks demonstrate how to flexibly subset them. **You do not need to down
 - **src/** → Python & shell scripts for processing  
 
 ## 🗂️ List of Notebooks
+
+### Notebook 01: Catchment Digital Terrain Models
+
+High-resolution terrain and elevation models from FDRI LiDAR surveys. ([Open notebook](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/01_extract_dtm_dsm.ipynb))
+
+### Notebook 02: Catchment Terrain Analysis
+
+Calculate and visualise slope, aspect, and other terrain characteristics. ([Open notebook](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/02_terrain_analysis.ipynb))
+
+### Notebook 03: Floodplain Micro-topography
+
+Explore fine-scale floodplain features, including channels and depressions. ([Open notebook](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/03_hydrological_analysis.ipynb))
+
+### Notebook 04: Riparian Canopy Height
+
+Analyse the height and structure of riverside trees and vegetation. ([Open notebook](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/04_canopy_analysis.ipynb))
+
+<!--
 | Notebook | Description |
 |----------|-------------|
-| [Notebook 01: Catchment Digital Terrain Models](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/01_extract_dtm_dsm.ipynb) | High-resolution terrain and elevation models from FDRI LiDAR surveys. |
-| [Notebook 02: Catchment Terrain Analysis](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/02_terrain_analysis.ipynb) | Calculate and visualise slope, aspect, and other terrain characteristics. |
-| [Notebook 03: Floodplain Micro-topography](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/03_hydrological_analysis.ipynb) | Explore fine-scale floodplain features, including channels and depressions. |
-| [Notebook 04: Riparian Canopy Height](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/04_canopy_analysis.ipynb) | Analyse the height and structure of riverside trees and vegetation. |
+| [Notebook 01: Catchment Digital Terrain Models](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/01_extract_dtm_dsm.d elevation models from FDRI LiDAR surveys. |
+| [Notebook 02: Catchment Terrain Analysis](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/02_terrain_analysis.ipynb) | Calculate and visualise slope,istics. |
+| [Notebook 03: Floodplain Micro-topography](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/03_hydrological_analysis.ipynb) | ncluding channels and depressions. |
+| [Notebook 04: Riparian Canopy Height](https://github.com/NERC-CEH/dtm-analysis/blob/main/notebooks/04_canopy_analysis.ipynb) | Analyse the height and structure |
+-->
 
 ## 🙋 Self-service to get additional data to run notebooks
 - (notebook 01) You will need a shape file of a region within England and Wales. For example, you can download the boundary of a NRFA catchment [here](https://nrfa.ceh.ac.uk/data/search). Click on a station >> Catchment info tab >> Download catchment boundary.
